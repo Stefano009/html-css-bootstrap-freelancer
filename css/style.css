@@ -14,7 +14,6 @@
     color: white !important;
 }
 .debug .jumbotron {
-    height: 500px !important;
     background-color: gray !important;
 }
 .debug .red {
@@ -38,12 +37,61 @@
 
 }
 .debug .container_top {
-    height: 100% !important;
     background-color: yellowgreen !important;
+}
+.debug .container_middle {
+    height: 100% !important;
+    background-color: fuchsia !important;
+}
+.debug .container_bottom {
+    height: 100% !important;
+    background-color: royalblue !important;
 }
 .debug .portfolio {
     height: 300px;
     width: 100%;
     background-color: teal;
 
+}
+.debug .about {
+    height: 400px;
+    background-color: salmon;
+}
+.debug .contact {
+    height: 400px;
+    background-color: white;
+}
+.debug footer {
+    height: 500px;
+}
+.debug .footer_top {
+    height: 80%;
+}
+.debug .footer_bot {
+    height: 20%;
+}
+.debug .footer_top>.row {
+    height: 100%;
+}
+.debug .footer_bot>.row {
+    height: 100%;
+}
+.debug .location {
+    height: 100%;
+    background-color: #3A546D;
+}
+.debug .copywright {
+    height: 100%;
+    background-color: #2C3E50;
+
+}
+@media all  and  (max-width: 577px) {
+    .navbar-nav {
+        display: none !important;
+    }
+}
+@media all  and  (min-width: 578px) {
+    .navbar-toggler-icon {
+        display: none !important;
+    }
 }
