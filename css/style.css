@@ -11,6 +11,9 @@ body {
 .ms_px {
     padding: 0 20%;
 }
+.ms_py {
+    padding: 4% 0 5%;
+}
 /* /common */
 /* header */
 .navbar {
@@ -23,6 +26,9 @@ body {
 }
 .ms_container_color {
     background-color: #1ABC9C;
+}
+.ms_text_success {  
+    color: #1ABC9C;
 }
 /* /header */
 /* jumbo */
@@ -54,6 +60,16 @@ body {
     background-color: #1ABC9C;
 }
 /*main - contacts */
+/* footer */
+.ms_footer_top {
+    background-color: #3A546D;
+}
+.ms_footer_bot {
+    background-color: #2C3E50;
+}
+
+
+/* /footer */
 .debug {
     height: 100%;
 }
@@ -97,15 +113,7 @@ body {
     height: 400px;
     background-color: white;
 }
-.debug footer {
-    height: 500px;
-}
-.debug .footer_top {
-    height: 80%;
-}
-.debug .footer_bot {
-    height: 20%;
-}
+
 .debug .footer_top>.row {
     height: 100%;
 }
