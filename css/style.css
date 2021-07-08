@@ -6,8 +6,8 @@
 /* common */
 body {
     font-family:  "Helvetica";
+    width: 100vw;
 }
-
 /* /common */
 /* header */
 .navbar {
@@ -18,13 +18,14 @@ body {
 .navbar-light .navbar-toggler{
     filter: invert(1);
 }
+.ms_container_color {
+    background-color: #1ABC9C;
+}
 /* /header */
 /* jumbo */
 .jumbotron {
     padding-top: 100px;
-    background-color: #1ABC9C;
     padding: 120px 0 80px;
-    color: white;
 }
 .ms_hr {
     width: 20%;
@@ -32,7 +33,8 @@ body {
     height: 0;
     margin: 0 10px;
 }
-.border-white {
+.white {
+    color: white;
     border-color: white;
 }
 /* /jumbo */
@@ -73,15 +75,11 @@ body {
 /* .debug .container_top {
     background-color: yellowgreen !important;
 } */
-
-.debug .container_middle {
-    height: 100% !important;
-    background-color: fuchsia !important;
-}
+/* 
 .debug .container_bottom {
     height: 100% !important;
     background-color: royalblue !important;
-}
+} */
 .debug .about {
     height: 400px;
     background-color: salmon;
