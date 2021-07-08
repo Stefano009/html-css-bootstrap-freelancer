@@ -37,6 +37,9 @@ body {
 }
 /* /jumbo */
 /* main - portfolio */
+.ms_rounded {
+    border-radius: 15px;
+}
 /* /main - portfolio */
 
 
