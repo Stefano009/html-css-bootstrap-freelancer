@@ -3,20 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* common */
+body {
+    font-family:  "Helvetica";
+}
+
+/* /common */
+/* header */
+.navbar {
+    background-color: #2C3E50 !important;
+}
+/* /header */
+/* jumbo */
+.jumbotron {
+    padding-top: 100px;
+    background-color: #1ABC9C;
+    padding: 30% 0 10%;
+    color: white;
+}
+.ms_hr {
+    width: 20%;
+    border: 1px solid;
+    height: 0;
+    margin: 0 10px;
+}
+.border-white {
+    border-color: white;
+}
+/* /jumbo */
+.navbar-light .navbar-brand ,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-toggler{
+    filter: invert(1);
+}
 .debug {
     height: 100%;
 }
 .debug.header {
     height: 50%;
-}
-.debug nav{
-    position: fixed;
-    width: 100%;
-    background-color: #2C3E50 !important;
-    color: white !important;
-}
-.debug .jumbotron {
-    background-color: gray !important;
 }
 
 .debug .red {
@@ -88,7 +112,7 @@
     background-color: #2C3E50;
 
 }
-@media all  and  (max-width: 577px) {
+/* @media all  and  (max-width: 577px) {
     .navbar-nav {
         display: none !important;
     }
@@ -96,5 +120,15 @@
 @media all  and  (min-width: 578px) {
     .navbar-toggler-icon {
         display: none !important;
+    }
+} */
+@media all  and  (max-width: 991px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 80%;
+        width: 40%;
+        
     }
 }
